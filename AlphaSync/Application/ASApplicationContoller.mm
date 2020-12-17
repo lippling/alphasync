@@ -167,7 +167,7 @@ static const NSInteger kMenuItemTagBackup   = 100;
     [tc setDataCell:fs];
 
     // Setup drag and drop.
-    [outletFileView registerForDraggedTypes:[NSArray arrayWithObjects:NSStringPboardType, NSFilenamesPboardType, nil]];
+    [outletFileView registerForDraggedTypes:[NSArray arrayWithObjects:NSPasteboardTypeString, NSFilenamesPboardType, nil]];
     [outletFileView setDraggingSourceOperationMask:NSDragOperationEvery forLocal:YES];
     [outletFileView setDraggingSourceOperationMask:NSDragOperationEvery forLocal:NO];
     [outletFileView setAutoresizesOutlineColumn:NO];
@@ -315,7 +315,7 @@ static const NSInteger kMenuItemTagBackup   = 100;
 {
     (void)sender;
     NSAlert* alert = [[NSAlert alloc] init];
-    [alert setAlertStyle:NSCriticalAlertStyle];
+    [alert setAlertStyle:NSAlertStyleCritical];
     [[alert addButtonWithTitle:@"Cancel"] setKeyEquivalent:@"\033"];
     [[alert addButtonWithTitle:@"Uninstall"] setKeyEquivalent:@"\r"];
     [alert setMessageText:@"Uninstall AlphaSync?"];
@@ -699,7 +699,7 @@ static const NSInteger kMenuItemTagBackup   = 100;
     [[alert addButtonWithTitle:@"Cancel"] setKeyEquivalent:@"\033"];
     [alert setMessageText:[NSString stringWithFormat:@"Overwrite file %@?", [target displayName]]];
     [alert setInformativeText:@"This operation can not be undone."];
-    [alert setAlertStyle:NSWarningAlertStyle];
+    [alert setAlertStyle:NSAlertStyleWarning];
 
     int button = [alert runModal];
     BOOL shouldProceed = (button == NSAlertFirstButtonReturn);
@@ -727,19 +727,19 @@ static const NSInteger kMenuItemTagBackup   = 100;
     {
         [alert setMessageText:[NSString stringWithFormat:@"Clear file %@?", [target displayName]]];
         [alert setInformativeText:@"This operation can not be undone."];
-        [alert setAlertStyle:NSWarningAlertStyle];
+        [alert setAlertStyle:NSAlertStyleWarning];
     }
     else if ([target isMemberOfClass:[ASAppletNode class]])
     {
         [alert setMessageText:[NSString stringWithFormat:@"Clear all files for %@?", [target displayName]]];
         [alert setInformativeText:@"This operation can not be undone."];
-        [alert setAlertStyle:NSCriticalAlertStyle];
+        [alert setAlertStyle:NSAlertStyleCritical];
     }
     else
     {
         [alert setMessageText:[NSString stringWithFormat:@"Clear %@?", [target displayName]]];
         [alert setInformativeText:@"This operation can not be undone."];
-        [alert setAlertStyle:NSWarningAlertStyle];
+        [alert setAlertStyle:NSAlertStyleWarning];
     }
 
     int button = [alert runModal];
@@ -768,7 +768,7 @@ static const NSInteger kMenuItemTagBackup   = 100;
         [[alert addButtonWithTitle:@"OK"] setKeyEquivalent:@"\r"];
         [alert setMessageText:[NSString stringWithFormat:@"Failed to load %@", [path lastPathComponent]]];
         [alert setInformativeText:error];
-        [alert setAlertStyle:NSWarningAlertStyle];
+        [alert setAlertStyle:NSAlertStyleWarning];
         [alert runModal];
         [alert release];
     }
@@ -792,7 +792,7 @@ static const NSInteger kMenuItemTagBackup   = 100;
         [[alert addButtonWithTitle:@"OK"] setKeyEquivalent:@"\r"];
         [alert setMessageText:[NSString stringWithFormat:@"Failed to save %@", [source displayName]]];
         [alert setInformativeText:error];
-        [alert setAlertStyle:NSWarningAlertStyle];
+        [alert setAlertStyle:NSAlertStyleWarning];
         [alert runModal];
         [alert release];
     }
@@ -816,7 +816,7 @@ static const NSInteger kMenuItemTagBackup   = 100;
         [[alert addButtonWithTitle:@"OK"] setKeyEquivalent:@"\r"];
         [alert setMessageText:[NSString stringWithFormat:@"Failed to replace file %@", [target displayName]]];
         [alert setInformativeText:error];
-        [alert setAlertStyle:NSWarningAlertStyle];
+        [alert setAlertStyle:NSAlertStyleWarning];
         [alert runModal];
         [alert release];
     }
@@ -841,7 +841,7 @@ static const NSInteger kMenuItemTagBackup   = 100;
         [[alert addButtonWithTitle:@"OK"] setKeyEquivalent:@"\r"];
         [alert setMessageText:[NSString stringWithFormat:@"Failed to delete file %@", [node displayName]]];
         [alert setInformativeText:error];
-        [alert setAlertStyle:NSWarningAlertStyle];
+        [alert setAlertStyle:NSAlertStyleWarning];
         [alert runModal];
         [alert release];
     }

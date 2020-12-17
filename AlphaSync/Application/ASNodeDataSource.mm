@@ -180,8 +180,8 @@ using namespace ts;
     (void)outlineView;
     (void)items;
     draggedNodes = [items retain];  // REVIEW: should this be retained? How long?
-    [pboard declareTypes:[NSArray arrayWithObjects:NSStringPboardType, NSFilesPromisePboardType, nil] owner:self];
-    [pboard setPropertyList:[NSArray arrayWithObjects:@"txt", nil] forType:NSFilesPromisePboardType];
+    [pboard declareTypes:[NSArray arrayWithObjects:NSPasteboardTypeString, kPasteboardTypeFileURLPromise, nil] owner:self];
+    [pboard setPropertyList:[NSArray arrayWithObjects:@"txt", nil] forType:(NSString *)kPasteboardTypeFileURLPromise];
     return YES;
 }
 
@@ -200,7 +200,7 @@ using namespace ts;
         }
     }
     [draggedNodes release];
-    [pboard setString:dataString forType:NSStringPboardType];
+    [pboard setString:dataString forType:NSPasteboardTypeString];
 }
 
 
