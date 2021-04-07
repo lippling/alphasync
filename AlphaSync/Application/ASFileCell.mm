@@ -120,7 +120,7 @@
 
     	[icon setScalesWhenResized:YES];
         [icon setSize:imageFrame.size];
-        [icon compositeToPoint:imageFrame.origin operation:NSCompositeSourceOver];
+        [icon compositeToPoint:imageFrame.origin operation:NSCompositingOperationSourceOver];
     }
     [super drawWithFrame:cellFrame inView:controlView];
 }

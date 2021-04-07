@@ -122,7 +122,7 @@
     [outletFilterOption selectItemWithTag:[self displayOption]];
     [outletBackupFolder setTitle:[self backupFolder]];
     [outletTextEncoding selectItemWithTag:[self textEncodingOption]];
-    [outletAutoRun setState:[self autoRun] ? NSOnState : NSOffState];
+    [outletAutoRun setState:[self autoRun] ? NSControlStateValueOn : NSControlStateValueOff];
 }
 
 
@@ -159,7 +159,7 @@
 - (void)backupFolderPanelDidEnd:(NSOpenPanel*)panel returnCode:(int)returnCode  contextInfo:(void*)contextInfo
 {
     (void)contextInfo;
-    if (NSOKButton == returnCode)
+    if (NSModalResponseOK == returnCode)
     {
         NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
         NSArray* filenames = [panel filenames];
@@ -195,8 +195,8 @@
 - (IBAction)actionAutoRun:(id)sender
 {
     int state = [sender state];
-    [[NSUserDefaults standardUserDefaults] setBool:((NSOnState == state) ? YES : NO) forKey:kASPreferenceKeyAutoRun];
-    [outletAutoRun setState:[self autoRun] ? NSOnState : NSOffState];
+    [[NSUserDefaults standardUserDefaults] setBool:((NSControlStateValueOn == state) ? YES : NO) forKey:kASPreferenceKeyAutoRun];
+    [outletAutoRun setState:[self autoRun] ? NSControlStateValueOn : NSControlStateValueOff];
     [applicationController setupAutoRun:0.0];
 }
 

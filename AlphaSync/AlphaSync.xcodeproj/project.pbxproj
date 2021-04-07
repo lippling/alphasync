@@ -81,11 +81,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* AlphaSync_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaSync_Prefix.pch; sourceTree = "<group>"; };
@@ -111,6 +109,11 @@
 		4D9630AE0F1D432C0018CDAA /* ASSettings.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASSettings.cc; sourceTree = "<group>"; };
 		4DD223AE0F1B5C8F006F004F /* launcher.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = launcher.icns; path = ../Graphics/launcher.icns; sourceTree = "<group>"; };
 		4DF7C9840F1EB42600619084 /* AlphaSync Help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "AlphaSync Help"; sourceTree = "<group>"; };
+		7EA74C3224A7C6380046F1C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EA74C3624A7C63B0046F1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		7EA74C3724A7C63B0046F1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/Backup.nib; sourceTree = "<group>"; };
+		7EA74C3824A7C63B0046F1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/Preferences.nib; sourceTree = "<group>"; };
+		7EA74C3924A7C63B0046F1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/Inspector.nib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* AlphaSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95EFA560F17C90D00E1BDA9 /* aq_launcher.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = aq_launcher.c; sourceTree = "<group>"; };
@@ -170,9 +173,6 @@
 		A99A54730F0D39FF00BC68F1 /* ASUserDictionaryFile.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ASUserDictionaryFile.cc; sourceTree = "<group>"; };
 		A99A54740F0D39FF00BC68F1 /* ASUserDictionaryFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASUserDictionaryFile.h; sourceTree = "<group>"; };
 		A99A54990F0D3AB700BC68F1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
-		A99A54B50F0D43D900BC68F1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Backup.nib; sourceTree = "<group>"; };
-		A99A54EE0F0D474F00BC68F1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
-		A99A54F90F0D5F5100BC68F1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Inspector.nib; sourceTree = "<group>"; };
 		A9E5D36F0F12BD5B002A9EC3 /* ASFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFileCell.h; sourceTree = "<group>"; };
 		A9E5D3700F12BD5B002A9EC3 /* ASFileCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASFileCell.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -461,14 +461,20 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 1030;
+				TargetAttributes = {
+					8D1107260486CEB800E47090 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AlphaSync" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* AlphaSync */;
 			projectDirPath = "";
@@ -534,7 +540,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Apply codesigning here rather than in the project (so that a SHA1 hash can be used as the identity).\nif [ ${CONFIGURATION} != \"Debug\" ] ; then\n  echo \"Stripping release build\"\n  /usr/bin/strip \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\necho \"Applying app codesigning ${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\"\n/usr/bin/codesign --force --sign \"0ce5fa2ff1f7e47a85df62f2ab16f943a213b85d\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\"\n";
+			shellScript = "
+";
 		};
 		4DDA9F92180F160A00BA274B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -547,7 +554,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Apply codesigning here rather than in the project (so that a SHA1 hash can be used as the identity).\nif [ ${CONFIGURATION} != \"Debug\" ] ; then\n  echo \"Stripping release build\"\n  /usr/bin/strip \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\necho \"Applying app codesigning ${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\"\n/usr/bin/codesign --force --sign \"0ce5fa2ff1f7e47a85df62f2ab16f943a213b85d\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\"\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -617,7 +625,7 @@
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
+				7EA74C3224A7C6380046F1C7 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -625,7 +633,7 @@
 		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
+				7EA74C3624A7C63B0046F1C7 /* Base */,
 			);
 			name = MainMenu.nib;
 			sourceTree = "<group>";
@@ -633,7 +641,7 @@
 		A99A54B40F0D43D900BC68F1 /* Backup.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A99A54B50F0D43D900BC68F1 /* English */,
+				7EA74C3724A7C63B0046F1C7 /* Base */,
 			);
 			name = Backup.nib;
 			sourceTree = "<group>";
@@ -641,7 +649,7 @@
 		A99A54ED0F0D474F00BC68F1 /* Preferences.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A99A54EE0F0D474F00BC68F1 /* English */,
+				7EA74C3824A7C63B0046F1C7 /* Base */,
 			);
 			name = Preferences.nib;
 			sourceTree = "<group>";
@@ -649,7 +657,7 @@
 		A99A54F80F0D5F5100BC68F1 /* Inspector.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A99A54F90F0D5F5100BC68F1 /* English */,
+				7EA74C3924A7C63B0046F1C7 /* Base */,
 			);
 			name = Inspector.nib;
 			sourceTree = "<group>";
@@ -661,7 +669,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
@@ -678,7 +686,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
@@ -694,7 +702,7 @@
 		A95EFA660F17C94B00E1BDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -709,6 +717,7 @@
 					"-framework",
 					Foundation,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsoniq.AlphaSyncLauncher;
 				PRODUCT_NAME = AlphaSyncLauncher;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -718,7 +727,7 @@
 		A95EFA670F17C94B00E1BDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
@@ -731,6 +740,7 @@
 					"-framework",
 					Foundation,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsoniq.AlphaSyncLauncher;
 				PRODUCT_NAME = AlphaSyncLauncher;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
@@ -740,15 +750,20 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsoniq.AlphaSync;
 				PRODUCT_NAME = AlphaSync;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -757,13 +772,18 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsoniq.AlphaSync;
 				PRODUCT_NAME = AlphaSync;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -771,15 +791,15 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_FAST_OBJC_DISPATCH = NO;
 				GCC_VERSION = 4.0;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -799,7 +819,8 @@
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
 				ONLY_LINK_ESSENTIAL_SYMBOLS = NO;
 				STRIP_INSTALLED_PRODUCT = NO;
 			};
@@ -808,7 +829,7 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
@@ -816,7 +837,6 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_FAST_OBJC_DISPATCH = NO;
 				GCC_VERSION = 4.0;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -836,7 +856,7 @@
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_LINK_ESSENTIAL_SYMBOLS = NO;
 				STRIP_INSTALLED_PRODUCT = NO;
 			};
